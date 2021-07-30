@@ -1,0 +1,97 @@
+header{
+	/*border: solid 1px #CC00AA;*/
+	background: #1E90FF;
+	padding: 8px;
+}
+
+header p{
+	text-align: center;
+	font-size: 25px
+}
+
+h1{
+	/*color:#f;*/
+	font-family:Arial;
+	font-size: 50px;
+	text-align:center;
+	/*border: dotted 1px #0000FF;*/
+	}
+
+h2{
+	color:#191970;
+	font-family:Arial;
+	/*border: dashed 1px #FF0000;*/
+}
+
+body{
+	font-family:Arial;
+  text-align:justify;
+  font-size:20px;
+  line-height:150%;
+	margin:20px;
+	/*border: dotted 1px #ADD8E6;*/
+	background: #E6E6FA;
+}
+
+img {
+  border-radius: 50%;
+	/*float:left;*/
+}
+
+nav  {
+	text-align:right;
+	}
+
+nav a{
+	font-family: Helvetica, Arial;
+	font-variant: small-caps;
+	font-size: 20px;
+	display:inline-block;
+	text-align:center;
+	width:130px;
+	margin: 1%;
+	padding:1%;
+	background:#ADD8E6;
+	opacity:0.8;
+
+}
+
+nav a:hover{
+	background-color: #00004D;
+	color: #FFFFFF;
+}
+
+nav a.active{
+  background-color: #ffffff;
+}
+
+section{
+	width:30%;
+	display: inline-block;
+	float: left;
+	margin-left: 2%;
+}
+
+/*footer {
+	border: solid 2px #FFFF00;
+}*/
+
+span{
+	/*height:60px;*/
+	width:60px;
+	display:inline-block;
+	margin-left: 2%
+}
+
+a{
+	width:20px;
+}
+
+footer{
+	background:#1E90FF;
+	clear:both;
+	}
+
+	footer img:hover{
+		opacity: 0.4;
+	}
