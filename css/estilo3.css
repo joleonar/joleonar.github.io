@@ -12,8 +12,12 @@ body{
 	width:80%;
 	margin: auto;
 	overflow: hidden;
+	margin-bottom: 30px ;
 }
 
+.proyecto{
+	display:none;
+}
 
 header{
 	background: #35424C;
@@ -93,12 +97,13 @@ nav a:focus{
 }
 
 section{
-	width:30%;
-	display: inline-block;
+	width:100%;
+	/*display: inline-block;*/
 	float: left;
 	margin-left: 2%;
 
 }
+
 
 span{
 	/*height:60px;*/
@@ -130,4 +135,11 @@ footer img:hover{
 		opacity: 0.4;
 		background-color: #ffdd00;
 		/*width: 45px;*/
+}
+
+.correo{
+	display: inline-block;
+	width: 50%;
+	margin-left:4px;
+	margin-bottom=4%;
 }
